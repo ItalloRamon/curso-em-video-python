@@ -1,0 +1,5 @@
+print('==== DESAFIO 012 ====')
+valor = float(input('Qual o preço do produto? R$'))
+desc = float(input('Qual o valor do desconto? %'))
+valor_final = valor - (valor * (desc/100))
+print('O produto que custava R${:.2f}, com o desconto de {:.0f}% vai custar R${:.2f}'.format(valor, desc, valor_final)) 

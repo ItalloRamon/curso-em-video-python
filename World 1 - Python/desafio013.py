@@ -1,0 +1,5 @@
+print('==== DESAFIO 013 ====')
+sal = float(input('Qual o salário do funcionário? R$'))
+aum = float(input('Qual o aumento? %'))
+sal_final = sal + (sal * (aum/100))
+print('Um funcionário que ganhava R${:.2f} com {:.0f}% de aumento ganha agora R${:.2f}'.format(sal, aum, sal_final))
